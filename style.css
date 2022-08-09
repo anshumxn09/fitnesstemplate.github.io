@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.elem_one{
+    max-width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://files.wallpaperpass.com/2019/10/fitness%20wallpaper%20053%20-%201920x1200.jpg');
+    background-size: 100vw 130vh;
+    overflow: hidden;
+    margin-bottom: -1.5%;
+}
+.name:hover{
+    background-color: black;
+    color: white;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    background-color: transparent;
+    border: 2px solid white;
+    font-weight: bolder;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar, .center_navbar, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    max-width: 100vw;
+    height: max-content;
+    background-color: transparent;
+}
+.center_navbar{
+    border-radius: 10px;
+    background-color: lightgray;
+    justify-content: space-evenly;
+}
+.center_navbar > a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 10px 15px;
+    color: black;
+}
+.image_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: white;
+}
+.imageloader{
+    height: max-content;
+}
+.imageloader > img{
+    height: 400px;
+    margin:10px 0px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.form_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.form_middle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
+    background-color: lightgray;
+    border-radius: 8px;
+}
+.contact{
+    padding: 20px;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.form-actual{
+    width: 90vw;
+    padding: 30px;
+}
+input[type="text"]{
+    margin: 8px 0px;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+}
+label, footer > p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    max-width: 100vw;
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+button{
+    margin: 10px 0px;
+    width: 100%;
+    padding: 5px;
+    background-color:lightslategrey;
+    color: white;
+}
